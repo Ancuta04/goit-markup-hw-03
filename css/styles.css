@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0, box-szing: Border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --link-color: #2196F3;
+  --text-font-familly: "Roboto", sans-serif;
+  --text-color-intermediate: #757575;
+  --text-color-light: #FFF;
+}
+
+body {
+  font-family: var(--text-font-familly);
+  color: #212121;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.global-container {
+  width: 1600px;
+}
+
+.global-header .main-navigation a.active {
+  color: var(--link-color);
+}
+
+.global-header .main-navigation,
+a:hover,
+a:focus {
+  color: var(--link-color);
+}
+
+.global-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  color: var(--link-color);
+}
+
+.logo-dark {
+  color: #000;
+}
+
+.logo-light {
+  color: var(--text-color-light);
+}
+
+
+/* Hero Section */
+
+.hero-section {
+  background: #2F303A;
+  width: 1600px;
+  height: 600px;
+  flex-shrink: 0;
+}
+
+.hero-title {
+  width: 696px;
+  color: #FFF;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.hero-button-service {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  background-color: var(--link-color);
+  color: var(--text-color-light);
+  cursor: pointer;
+  margin-bottom: 200px;
+}
+
+/* Skills Section */
+
+.skills {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.skills-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  color: var(--text-color-intermediate);
+}
+
+/* What we do section */
+
+.sub-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.what-we-do {
+  width: 100%;
+  display: flex;
+  gap: ;
+}
+
+/* Our team section */
+
+.team-names {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.team-jobs {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  color: var(--text-color-intermediate);
+}
+
+/* Portofolio */
+
+.buttons-portfolio {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+}
+
+.buttons-portfolio:hover,
+.buttons-portfolio:focus {
+  color: var(--text-color-light);
+  background-color: var(--link-color);
+}
+
+
+.card-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+
+.card-domain {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+  color: var(--text-color-intermediate);
+}
+
+/* Footer section */
+
+.global-footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: #2F303A;
+  width: 100%;
+}
+
+.global-footer {
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  background-color: #2F303A;
+  color: var(--text-color-light);
+  display: flex;
+  width: 1200px;
+}
+
+.footer-adress {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0 60px 10px;
+}
+
+adress {
+  color: var(--text-color-light);
+  padding-top: 28px;
+  padding-bottom: 12px;
+}
+
+footer div .contact {
+  color: var(--text-color-light) 60%;
+}
+
+footer div .contact.mail {
+  padding-top: 12px;
+  margin-bottom: 60px;
+}
